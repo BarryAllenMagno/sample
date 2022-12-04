@@ -1,0 +1,11 @@
+return (
+    div className='row'
+      div className='column'
+        CreateToDo onSave={setData} 
+      div 
+      div className='column'
+        ListAll theData={data}
+      div
+      
+    div
+  );
